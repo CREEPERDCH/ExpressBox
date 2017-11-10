@@ -3,7 +3,9 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/JetBrains/NetBeansProjects/Demo3/src/com/thai/demo3/java/ui/MainPageUI.java</file>
+            <file>file:/D:/JetBrains/NetBeansProjects/Demo3/src/com/thai/demo3/java/initDevice/InitSuccess.java</file>
+            <file>file:/D:/JetBrains/NetBeansProjects/Demo3/src/com/thai/demo3/java/initDevice/SyncSuccess.java</file>
+            <file>file:/D:/JetBrains/NetBeansProjects/Demo3/src/com/thai/demo3/java/initDevice/SyncFail.java</file>
         </group>
     </open-files>
 </project-private>

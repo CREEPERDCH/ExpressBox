@@ -1,7 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9de4e82b-747f-46af-b1ac-cd3bdc150cc7" name="Default" comment="" />
+    <list default="true" id="9de4e82b-747f-46af-b1ac-cd3bdc150cc7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Demo3.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/thai/demo3/java/demo3.iml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/NewJFrame$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/NewJFrame.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bundles/Demo3-1.0.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/thai/demo3/java/ui/NewJFrame.form" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/thai/demo3/java/ui/NewJFrame.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/CustomerUI$1.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/CustomerUI$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/CustomerUI$2.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/CustomerUI$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/CustomerUI.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/CustomerUI.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/LanguageUI$1.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/LanguageUI$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/LanguageUI.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/LanguageUI.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/MainPageUI$1.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/MainPageUI$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/MainPageUI$2.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/MainPageUI$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/MainPageUI$3.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/MainPageUI$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/MainPageUI$4.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/MainPageUI$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/MainPageUI.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/MainPageUI.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendChooseUI$1.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendChooseUI$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendChooseUI$2.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendChooseUI$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendChooseUI$3.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendChooseUI$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendChooseUI$4.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendChooseUI$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendChooseUI$5.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendChooseUI$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendChooseUI$6.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendChooseUI$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendChooseUI$7.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendChooseUI$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendChooseUI$8.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendChooseUI$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendChooseUI$9.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendChooseUI$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendChooseUI.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendChooseUI.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendConfigUI$1.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendConfigUI$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendConfigUI$2.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendConfigUI$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendConfigUI$3.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendConfigUI$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendConfigUI$4.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendConfigUI$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendConfigUI.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendConfigUI.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendInUI$1.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendInUI$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendInUI$2.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendInUI$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendInUI$3.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendInUI$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendInUI.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendInUI.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendInputUI$1.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendInputUI$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendInputUI$10.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendInputUI$10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendInputUI$11.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendInputUI$11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendInputUI$12.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendInputUI$12.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendInputUI$13.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendInputUI$13.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendInputUI$14.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendInputUI$14.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendInputUI$15.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendInputUI$15.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendInputUI$16.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendInputUI$16.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendInputUI$2.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendInputUI$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendInputUI$3.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendInputUI$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendInputUI$4.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendInputUI$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendInputUI$5.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendInputUI$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendInputUI$6.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendInputUI$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendInputUI$7.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendInputUI$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendInputUI$8.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendInputUI$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendInputUI$9.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendInputUI$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendInputUI.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendInputUI.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendSuccessUI$1.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendSuccessUI$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendSuccessUI$2.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendSuccessUI$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendSuccessUI$3.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendSuccessUI$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendSuccessUI$4.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendSuccessUI$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendSuccessUI.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/SendSuccessUI.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/TakeInputUI$1.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/TakeInputUI$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/TakeInputUI$10.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/TakeInputUI$10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/TakeInputUI$11.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/TakeInputUI$11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/TakeInputUI$12.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/TakeInputUI$12.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/TakeInputUI$13.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/TakeInputUI$13.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/TakeInputUI$14.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/TakeInputUI$14.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/TakeInputUI$15.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/TakeInputUI$15.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/TakeInputUI$16.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/TakeInputUI$16.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/TakeInputUI$17.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/TakeInputUI$17.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/TakeInputUI$2.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/TakeInputUI$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/TakeInputUI$3.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/TakeInputUI$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/TakeInputUI$4.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/TakeInputUI$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/TakeInputUI$5.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/TakeInputUI$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/TakeInputUI$6.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/TakeInputUI$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/TakeInputUI$7.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/TakeInputUI$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/TakeInputUI$8.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/TakeInputUI$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/TakeInputUI$9.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/TakeInputUI$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/TakeInputUI.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/TakeInputUI.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/TakeOutUI$1.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/TakeOutUI$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/TakeOutUI$2.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/TakeOutUI$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/TakeOutUI$3.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/TakeOutUI$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/TakeOutUI.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/TakeOutUI.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/TakeSuccessUI$1.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/TakeSuccessUI$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/TakeSuccessUI$2.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/TakeSuccessUI$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/TakeSuccessUI$3.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/TakeSuccessUI$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/TakeSuccessUI.class" afterPath="$PROJECT_DIR$/build/classes/com/thai/demo3/java/ui/TakeSuccessUI.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/Demo3.jar" afterPath="$PROJECT_DIR$/dist/Demo3.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/built-jar.properties" afterPath="$PROJECT_DIR$/build/built-jar.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nbproject/build-impl.xml" afterPath="$PROJECT_DIR$/nbproject/build-impl.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nbproject/genfiles.properties" afterPath="$PROJECT_DIR$/nbproject/genfiles.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nbproject/private/private.xml" afterPath="$PROJECT_DIR$/nbproject/private/private.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nbproject/project.properties" afterPath="$PROJECT_DIR$/nbproject/project.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nbproject/project.xml" afterPath="$PROJECT_DIR$/nbproject/project.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/thai/demo3/java/ui/CustomerUI.java" afterPath="$PROJECT_DIR$/src/com/thai/demo3/java/ui/CustomerUI.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/thai/demo3/java/ui/LanguageUI.form" afterPath="$PROJECT_DIR$/src/com/thai/demo3/java/ui/LanguageUI.form" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/thai/demo3/java/ui/LanguageUI.java" afterPath="$PROJECT_DIR$/src/com/thai/demo3/java/ui/LanguageUI.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/thai/demo3/java/ui/MainPageUI.form" afterPath="$PROJECT_DIR$/src/com/thai/demo3/java/ui/MainPageUI.form" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/thai/demo3/java/ui/MainPageUI.java" afterPath="$PROJECT_DIR$/src/com/thai/demo3/java/ui/MainPageUI.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/thai/demo3/java/ui/SendChooseUI.form" afterPath="$PROJECT_DIR$/src/com/thai/demo3/java/ui/SendChooseUI.form" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/thai/demo3/java/ui/SendChooseUI.java" afterPath="$PROJECT_DIR$/src/com/thai/demo3/java/ui/SendChooseUI.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/thai/demo3/java/ui/SendConfigUI.java" afterPath="$PROJECT_DIR$/src/com/thai/demo3/java/ui/SendConfigUI.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/thai/demo3/java/ui/SendInUI.java" afterPath="$PROJECT_DIR$/src/com/thai/demo3/java/ui/SendInUI.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/thai/demo3/java/ui/SendInputUI.form" afterPath="$PROJECT_DIR$/src/com/thai/demo3/java/ui/SendInputUI.form" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/thai/demo3/java/ui/SendInputUI.java" afterPath="$PROJECT_DIR$/src/com/thai/demo3/java/ui/SendInputUI.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/thai/demo3/java/ui/SendSuccessUI.java" afterPath="$PROJECT_DIR$/src/com/thai/demo3/java/ui/SendSuccessUI.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/thai/demo3/java/ui/TakeInputUI.form" afterPath="$PROJECT_DIR$/src/com/thai/demo3/java/ui/TakeInputUI.form" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/thai/demo3/java/ui/TakeInputUI.java" afterPath="$PROJECT_DIR$/src/com/thai/demo3/java/ui/TakeInputUI.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/thai/demo3/java/ui/TakeOutUI.java" afterPath="$PROJECT_DIR$/src/com/thai/demo3/java/ui/TakeOutUI.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/thai/demo3/java/ui/TakeSuccessUI.java" afterPath="$PROJECT_DIR$/src/com/thai/demo3/java/ui/TakeSuccessUI.java" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,25 +125,46 @@
     <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="MainPageUI.java" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="MainPageUI.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/thai/demo3/java/ui/MainPageUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="29" column="43" lean-forward="true" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+            <state relative-caret-position="285">
+              <caret line="35" column="34" lean-forward="false" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
               <folding>
-                <element signature="e#0#11796#0" expanded="true" />
-                <element signature="e#370#371#0" expanded="true" />
-                <element signature="e#402#403#0" expanded="true" />
-                <element signature="e#9739#9826#0" expanded="true" />
-                <element signature="e#11221#11222#0" expanded="true" />
-                <element signature="e#11286#11287#0" expanded="true" />
+                <element signature="e#0#15354#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ManagePwd.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/thai/demo3/java/admin/ManagePwd.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="216" column="8" lean-forward="true" selection-start-line="216" selection-start-column="8" selection-end-line="216" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#14383#0" expanded="true" />
+                <element signature="e#11974#12061#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manifest.mf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manifest.mf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -55,9 +185,12 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
+    <option name="x" value="953" />
     <option name="width" value="974" />
-    <option name="height" value="547" />
+    <option name="height" value="1087" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -74,7 +207,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -126,14 +259,14 @@
               <item name="thai" type="462c0819:PsiDirectoryNode" />
               <item name="demo3" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -248,43 +381,45 @@
       <option name="presentableId" value="Default" />
       <updated>1509681376624</updated>
       <workItem from="1509681377822" duration="207000" />
+      <workItem from="1510125521260" duration="1964000" />
+      <workItem from="1510216749789" duration="92000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="207000" />
+    <option name="totallyTimeSpent" value="2263000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5181237" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,6 +433,34 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/thai/demo3/java/ui/MainPageUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15354#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manifest.mf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thai/demo3/java/ui/MainPageUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15354#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/thai/demo3/java/ui/MainPageUI.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
@@ -307,23 +470,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41974#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manifest.mf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/thai/demo3/java/ui/MainPageUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="43" lean-forward="true" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+        <state relative-caret-position="285">
+          <caret line="35" column="34" lean-forward="false" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
           <folding>
-            <element signature="e#0#11796#0" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
-            <element signature="e#9739#9826#0" expanded="true" />
-            <element signature="e#11221#11222#0" expanded="true" />
-            <element signature="e#11286#11287#0" expanded="true" />
+            <element signature="e#0#15354#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thai/demo3/java/admin/ManagePwd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="216" column="8" lean-forward="true" selection-start-line="216" selection-start-column="8" selection-end-line="216" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#14383#0" expanded="true" />
+            <element signature="e#11974#12061#0" expanded="true" />
           </folding>
         </state>
       </provider>

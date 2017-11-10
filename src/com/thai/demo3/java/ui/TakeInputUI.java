@@ -5,12 +5,14 @@
  */
 package com.thai.demo3.java.ui;
 
+import com.thai.java.thaipaymall.SerialTool;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.TimerTask;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.Timer;
 import javax.swing.event.DocumentEvent;
@@ -22,10 +24,19 @@ import javax.swing.event.DocumentListener;
  */
 public class TakeInputUI extends javax.swing.JFrame {
 
+    private  SerialTool serialTool;
+
     /**
      * Creates new form TakeInputUI
      */
     public TakeInputUI() {
+        this.setUndecorated(true);
+        this.setExtendedState(JFrame.MAXIMIZED_BOTH);
+        this.setAlwaysOnTop(true);
+        this.setResizable(false);
+        this.requestFocus();
+        this.setLocation(0, 0);
+         serialTool = new SerialTool();
         initComponents();
     }
 
@@ -144,6 +155,9 @@ public class TakeInputUI extends javax.swing.JFrame {
         jTextField6.getDocument().addDocumentListener(new DocumentListener(){
             @Override
             public void insertUpdate(DocumentEvent e) {
+                System.out.println("---begin send---");
+                serialTool.send("23230D000B4001010147000D0A");
+                System.out.println("---Send end---");
                 new TakeOutUI().setVisible(true);
                 TakeInputUI.this.dispose();
             }
@@ -161,6 +175,11 @@ public class TakeInputUI extends javax.swing.JFrame {
         });
 
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/takeInput_remember.png"))); // NOI18N
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
 
         jPanel3.setBackground(new java.awt.Color(251, 205, 57));
 
@@ -715,6 +734,12 @@ public class TakeInputUI extends javax.swing.JFrame {
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        // TODO add your handling code here:
+        new CustomerUI().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     
     

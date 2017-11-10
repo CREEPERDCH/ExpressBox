@@ -5,6 +5,8 @@
  */
 package com.thai.demo3.java.ui;
 
+import javax.swing.JFrame;
+
 /**
  *
  * @author 段晓强
@@ -15,6 +17,12 @@ public class SendChooseUI extends javax.swing.JFrame {
      * Creates new form SendChooseUI
      */
     public SendChooseUI() {
+        this.setUndecorated(true);
+        this.setExtendedState(JFrame.MAXIMIZED_BOTH);
+        this.setAlwaysOnTop(true);
+        this.setResizable(false);
+        this.requestFocus();
+        this.setLocation(0, 0);
         initComponents();
     }
 
@@ -121,6 +129,11 @@ public class SendChooseUI extends javax.swing.JFrame {
 
         jButton25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
         jButton25.setText("jButton20");
+        jButton25.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton25ActionPerformed(evt);
+            }
+        });
 
         jPanel3.setBackground(new java.awt.Color(255, 96, 10));
 
@@ -147,39 +160,99 @@ public class SendChooseUI extends javax.swing.JFrame {
 
         jButton48.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
         jButton48.setText("jButton20");
+        jButton48.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton48ActionPerformed(evt);
+            }
+        });
 
         jButton47.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
         jButton47.setText("jButton20");
+        jButton47.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton47ActionPerformed(evt);
+            }
+        });
 
         jButton67.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
         jButton67.setText("jButton20");
+        jButton67.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton67ActionPerformed(evt);
+            }
+        });
 
         jButton68.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
         jButton68.setText("jButton20");
+        jButton68.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton68ActionPerformed(evt);
+            }
+        });
 
         jButton69.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
         jButton69.setText("jButton20");
+        jButton69.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton69ActionPerformed(evt);
+            }
+        });
 
         jButton70.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
         jButton70.setText("jButton20");
+        jButton70.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton70ActionPerformed(evt);
+            }
+        });
 
         jButton71.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box_gray.png"))); // NOI18N
         jButton71.setText("jButton20");
+        jButton71.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton71ActionPerformed(evt);
+            }
+        });
 
         jButton72.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
         jButton72.setText("jButton20");
+        jButton72.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton72ActionPerformed(evt);
+            }
+        });
 
         jButton73.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
         jButton73.setText("jButton20");
+        jButton73.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton73ActionPerformed(evt);
+            }
+        });
 
         jButton74.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
         jButton74.setText("jButton20");
+        jButton74.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton74ActionPerformed(evt);
+            }
+        });
 
         jButton75.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
         jButton75.setText("jButton20");
+        jButton75.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton75ActionPerformed(evt);
+            }
+        });
 
         jButton76.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
         jButton76.setText("jButton20");
+        jButton76.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton76ActionPerformed(evt);
+            }
+        });
 
         jButton77.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
         jButton77.setText("jButton20");
@@ -191,6 +264,11 @@ public class SendChooseUI extends javax.swing.JFrame {
 
         jButton78.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
         jButton78.setText("jButton20");
+        jButton78.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton78ActionPerformed(evt);
+            }
+        });
 
         jButton29.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
         jButton29.setText("jButton20");
@@ -202,33 +280,83 @@ public class SendChooseUI extends javax.swing.JFrame {
 
         jButton30.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
         jButton30.setText("jButton20");
+        jButton30.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton30ActionPerformed(evt);
+            }
+        });
 
         jButton31.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
         jButton31.setText("jButton20");
+        jButton31.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton31ActionPerformed(evt);
+            }
+        });
 
         jButton32.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
         jButton32.setText("jButton20");
+        jButton32.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton32ActionPerformed(evt);
+            }
+        });
 
         jButton33.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
         jButton33.setText("jButton20");
+        jButton33.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton33ActionPerformed(evt);
+            }
+        });
 
         jButton38.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
         jButton38.setText("jButton20");
+        jButton38.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton38ActionPerformed(evt);
+            }
+        });
 
         jButton39.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
         jButton39.setText("jButton20");
+        jButton39.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton39ActionPerformed(evt);
+            }
+        });
 
         jButton40.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
         jButton40.setText("jButton20");
+        jButton40.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton40ActionPerformed(evt);
+            }
+        });
 
         jButton41.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
         jButton41.setText("jButton20");
+        jButton41.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton41ActionPerformed(evt);
+            }
+        });
 
         jButton42.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
         jButton42.setText("jButton20");
+        jButton42.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton42ActionPerformed(evt);
+            }
+        });
 
         jButton79.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
         jButton79.setText("jButton20");
+        jButton79.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton79ActionPerformed(evt);
+            }
+        });
 
         jButton80.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
         jButton80.setText("jButton20");
@@ -240,15 +368,35 @@ public class SendChooseUI extends javax.swing.JFrame {
 
         jButton81.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
         jButton81.setText("jButton20");
+        jButton81.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton81ActionPerformed(evt);
+            }
+        });
 
         jButton82.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
         jButton82.setText("jButton20");
+        jButton82.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton82ActionPerformed(evt);
+            }
+        });
 
         jButton83.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box_gray.png"))); // NOI18N
         jButton83.setText("jButton20");
+        jButton83.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton83ActionPerformed(evt);
+            }
+        });
 
         jButton84.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
         jButton84.setText("jButton20");
+        jButton84.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton84ActionPerformed(evt);
+            }
+        });
 
         jButton85.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
         jButton85.setText("jButton20");
@@ -260,6 +408,11 @@ public class SendChooseUI extends javax.swing.JFrame {
 
         jButton86.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
         jButton86.setText("jButton20");
+        jButton86.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton86ActionPerformed(evt);
+            }
+        });
 
         jButton87.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box_gray.png"))); // NOI18N
         jButton87.setText("jButton20");
@@ -271,12 +424,27 @@ public class SendChooseUI extends javax.swing.JFrame {
 
         jButton88.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
         jButton88.setText("jButton20");
+        jButton88.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton88ActionPerformed(evt);
+            }
+        });
 
         jButton34.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
         jButton34.setText("jButton20");
+        jButton34.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton34ActionPerformed(evt);
+            }
+        });
 
         jButton35.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
         jButton35.setText("jButton20");
+        jButton35.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton35ActionPerformed(evt);
+            }
+        });
 
         jButton36.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
         jButton36.setText("jButton20");
@@ -288,21 +456,51 @@ public class SendChooseUI extends javax.swing.JFrame {
 
         jButton37.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
         jButton37.setText("jButton20");
+        jButton37.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton37ActionPerformed(evt);
+            }
+        });
 
         jButton43.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
         jButton43.setText("jButton20");
+        jButton43.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton43ActionPerformed(evt);
+            }
+        });
 
         jButton44.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
         jButton44.setText("jButton20");
+        jButton44.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton44ActionPerformed(evt);
+            }
+        });
 
         jButton45.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
         jButton45.setText("jButton20");
+        jButton45.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton45ActionPerformed(evt);
+            }
+        });
 
         jButton46.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
         jButton46.setText("jButton20");
+        jButton46.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton46ActionPerformed(evt);
+            }
+        });
 
         jButton89.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
         jButton89.setText("jButton20");
+        jButton89.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton89ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -523,22 +721,32 @@ public class SendChooseUI extends javax.swing.JFrame {
 
     private void jButton36ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton36ActionPerformed
         // TODO add your handling code here:
+        new SendInUI().setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_jButton36ActionPerformed
 
     private void jButton87ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton87ActionPerformed
         // TODO add your handling code here:
+        new SendInUI().setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_jButton87ActionPerformed
 
     private void jButton85ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton85ActionPerformed
         // TODO add your handling code here:
+        new SendInUI().setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_jButton85ActionPerformed
 
     private void jButton80ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton80ActionPerformed
         // TODO add your handling code here:
+        new SendInUI().setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_jButton80ActionPerformed
 
     private void jButton77ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton77ActionPerformed
         // TODO add your handling code here:
+        new SendInUI().setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_jButton77ActionPerformed
 
     private void jButton20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton20ActionPerformed
@@ -555,7 +763,237 @@ public class SendChooseUI extends javax.swing.JFrame {
 
     private void jButton29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton29ActionPerformed
         // TODO add your handling code here:
+        new SendInUI().setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_jButton29ActionPerformed
+
+    private void jButton47ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton47ActionPerformed
+        // TODO add your handling code here:
+        new SendInUI().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton47ActionPerformed
+
+    private void jButton89ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton89ActionPerformed
+        // TODO add your handling code here:
+        new SendInUI().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton89ActionPerformed
+
+    private void jButton67ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton67ActionPerformed
+        // TODO add your handling code here:
+        new SendInUI().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton67ActionPerformed
+
+    private void jButton68ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton68ActionPerformed
+        // TODO add your handling code here:
+        new SendInUI().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton68ActionPerformed
+
+    private void jButton25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton25ActionPerformed
+        // TODO add your handling code here:
+        new SendInUI().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton25ActionPerformed
+
+    private void jButton30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton30ActionPerformed
+        // TODO add your handling code here:
+        new SendInUI().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton30ActionPerformed
+
+    private void jButton41ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton41ActionPerformed
+        // TODO add your handling code here:
+        new SendInUI().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton41ActionPerformed
+
+    private void jButton69ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton69ActionPerformed
+        // TODO add your handling code here:
+        new SendInUI().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton69ActionPerformed
+
+    private void jButton70ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton70ActionPerformed
+        // TODO add your handling code here:
+        new SendInUI().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton70ActionPerformed
+
+    private void jButton71ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton71ActionPerformed
+        // TODO add your handling code here:
+        new SendInUI().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton71ActionPerformed
+
+    private void jButton72ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton72ActionPerformed
+        // TODO add your handling code here:
+        new SendInUI().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton72ActionPerformed
+
+    private void jButton73ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton73ActionPerformed
+        // TODO add your handling code here:
+        new SendInUI().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton73ActionPerformed
+
+    private void jButton40ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton40ActionPerformed
+        // TODO add your handling code here:
+        new SendInUI().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton40ActionPerformed
+
+    private void jButton38ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton38ActionPerformed
+        // TODO add your handling code here:
+        new SendInUI().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton38ActionPerformed
+
+    private void jButton39ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton39ActionPerformed
+        // TODO add your handling code here:
+        new SendInUI().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton39ActionPerformed
+
+    private void jButton42ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton42ActionPerformed
+        // TODO add your handling code here:
+        new SendInUI().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton42ActionPerformed
+
+    private void jButton74ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton74ActionPerformed
+        // TODO add your handling code here:
+        new SendInUI().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton74ActionPerformed
+
+    private void jButton75ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton75ActionPerformed
+        // TODO add your handling code here:
+        new SendInUI().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton75ActionPerformed
+
+    private void jButton76ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton76ActionPerformed
+        // TODO add your handling code here:
+        new SendInUI().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton76ActionPerformed
+
+    private void jButton78ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton78ActionPerformed
+        // TODO add your handling code here:
+        new SendInUI().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton78ActionPerformed
+
+    private void jButton33ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton33ActionPerformed
+        // TODO add your handling code here:
+        new SendInUI().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton33ActionPerformed
+
+    private void jButton31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton31ActionPerformed
+        // TODO add your handling code here:
+        new SendInUI().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton31ActionPerformed
+
+    private void jButton32ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton32ActionPerformed
+        // TODO add your handling code here:
+        new SendInUI().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton32ActionPerformed
+
+    private void jButton79ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton79ActionPerformed
+        // TODO add your handling code here:
+        new SendInUI().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton79ActionPerformed
+
+    private void jButton84ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton84ActionPerformed
+        // TODO add your handling code here:
+        new SendInUI().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton84ActionPerformed
+
+    private void jButton86ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton86ActionPerformed
+        // TODO add your handling code here:
+        new SendInUI().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton86ActionPerformed
+
+    private void jButton88ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton88ActionPerformed
+        // TODO add your handling code here:
+        new SendInUI().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton88ActionPerformed
+
+    private void jButton34ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton34ActionPerformed
+        // TODO add your handling code here:
+        new SendInUI().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton34ActionPerformed
+
+    private void jButton35ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton35ActionPerformed
+        // TODO add your handling code here:
+        new SendInUI().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton35ActionPerformed
+
+    private void jButton45ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton45ActionPerformed
+        // TODO add your handling code here:
+        new SendInUI().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton45ActionPerformed
+
+    private void jButton48ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton48ActionPerformed
+        // TODO add your handling code here:
+        new SendInUI().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton48ActionPerformed
+
+    private void jButton81ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton81ActionPerformed
+        // TODO add your handling code here:
+        new SendInUI().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton81ActionPerformed
+
+    private void jButton82ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton82ActionPerformed
+        // TODO add your handling code here:
+        new SendInUI().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton82ActionPerformed
+
+    private void jButton83ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton83ActionPerformed
+        // TODO add your handling code here:
+        new SendInUI().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton83ActionPerformed
+
+    private void jButton37ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton37ActionPerformed
+        // TODO add your handling code here:
+        new SendInUI().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton37ActionPerformed
+
+    private void jButton43ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton43ActionPerformed
+        // TODO add your handling code here:
+        new SendInUI().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton43ActionPerformed
+
+    private void jButton44ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton44ActionPerformed
+        // TODO add your handling code here:
+        new SendInUI().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton44ActionPerformed
+
+    private void jButton46ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton46ActionPerformed
+        // TODO add your handling code here:
+        new SendInUI().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton46ActionPerformed
 
     /**
      * @param args the command line arguments

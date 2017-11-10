@@ -5,6 +5,8 @@
  */
 package com.thai.demo3.java.ui;
 
+import javax.swing.JFrame;
+
 /**
  *
  * @author 段晓强
@@ -15,6 +17,12 @@ public class SendSuccessUI extends javax.swing.JFrame {
      * Creates new form SendSuccessUI
      */
     public SendSuccessUI() {
+        this.setUndecorated(true);
+        this.setExtendedState(JFrame.MAXIMIZED_BOTH);
+        this.setAlwaysOnTop(true);
+        this.setResizable(false);
+        this.requestFocus();
+        this.setLocation(0, 0);
         initComponents();
     }
 

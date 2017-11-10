@@ -7,6 +7,7 @@ package com.thai.demo3.java.ui;
 
 import java.awt.Font;
 import java.text.SimpleDateFormat;
+import javax.swing.JFrame;
 import javax.swing.Timer;
 
 /**
@@ -19,6 +20,12 @@ public class CustomerUI extends javax.swing.JFrame {
      * Creates new form CustomerUI
      */
     public CustomerUI() {
+        this.setUndecorated(true);
+        this.setExtendedState(JFrame.MAXIMIZED_BOTH);
+        this.setAlwaysOnTop(true);
+        this.setResizable(false);
+        this.requestFocus();
+        this.setLocation(0, 0);
         initComponents();
     }
 

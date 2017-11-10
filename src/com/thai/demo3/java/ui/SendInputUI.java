@@ -5,6 +5,9 @@
  */
 package com.thai.demo3.java.ui;
 
+
+import com.thai.java.thaipaymall.SerialTool;
+import javax.swing.JFrame;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 
@@ -14,10 +17,19 @@ import javax.swing.event.DocumentListener;
  */
 public class SendInputUI extends javax.swing.JFrame {
 
+    private  SerialTool serialTool;
+
     /**
      * Creates new form TakeInputUI
      */
     public SendInputUI() {
+        this.setUndecorated(true);
+        this.setExtendedState(JFrame.MAXIMIZED_BOTH);
+        this.setAlwaysOnTop(true);
+        this.setResizable(false);
+        this.requestFocus();
+        this.setLocation(0, 0);
+       serialTool= new SerialTool();
         initComponents();
     }
 
@@ -125,6 +137,9 @@ public class SendInputUI extends javax.swing.JFrame {
         jTextField6.getDocument().addDocumentListener(new DocumentListener(){
             @Override
             public void insertUpdate(DocumentEvent e) {
+                System.out.println("---begin send---");
+                serialTool.send("23230D000B4001010147000D0A");
+                System.out.println("---Send end---");
                 new SendChooseUI().setVisible(true);
                 SendInputUI.this.dispose();
             }
@@ -136,12 +151,16 @@ public class SendInputUI extends javax.swing.JFrame {
 
             @Override
             public void changedUpdate(DocumentEvent e) {
-
             }
 
         });
 
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/remember_send.png"))); // NOI18N
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
 
         jPanel3.setBackground(new java.awt.Color(251, 205, 57));
 
@@ -334,7 +353,7 @@ public class SendInputUI extends javax.swing.JFrame {
                     .addComponent(jTextField6, javax.swing.GroupLayout.PREFERRED_SIZE, 117, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(65, 65, 65)
                 .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 191, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 63, Short.MAX_VALUE)
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
@@ -676,6 +695,12 @@ public class SendInputUI extends javax.swing.JFrame {
         }
         
     }//GEN-LAST:event_jButton14ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        // TODO add your handling code here:
+        new CustomerUI().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments
