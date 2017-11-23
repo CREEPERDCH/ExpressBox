@@ -27,8 +27,8 @@ public class CustomPanel extends JPanel {
     @Override
     public void paint(Graphics g){
         try {
-            image = ImageIO.read(new File(getClass().getResource("/com/thai/demo3/java/resources/trans_demo.png").toURI()));
-            g.drawImage(image, 0, 0, 768, 1024, null);
+            image = ImageIO.read(new File(getClass().getResource("/com/thai/demo3/java/resources/custom_new_2.png").toURI()));
+            g.drawImage(image, 0, 0, 768, 400, null);
         } catch (IOException | URISyntaxException e) {
             e.printStackTrace();
         }

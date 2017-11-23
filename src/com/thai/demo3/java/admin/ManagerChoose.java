@@ -22,7 +22,7 @@ public class ManagerChoose extends javax.swing.JFrame {
      * Creates new form SendChooseUI
      */
     public ManagerChoose() {
-        this.setUndecorated(true);
+//        this.setUndecorated(true);
 //        this.setExtendedState(JFrame.MAXIMIZED_BOTH);
         this.setAlwaysOnTop(true);
         this.setResizable(false);
@@ -42,57 +42,62 @@ public class ManagerChoose extends javax.swing.JFrame {
 
         jPanel1 = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
-        jButton1 = new javax.swing.JButton();
-        jButton20 = new javax.swing.JButton("A1");
-        jButton25 = new javax.swing.JButton();
+        btn_return = new javax.swing.JButton();
+        G01 = new javax.swing.JButton("A1");
+        G06 = new javax.swing.JButton();
         jPanel3 = new javax.swing.JPanel();
-        jButton2 = new javax.swing.JButton();
-        jButton48 = new javax.swing.JButton();
-        jButton47 = new javax.swing.JButton();
-        jButton67 = new javax.swing.JButton();
-        jButton68 = new javax.swing.JButton();
-        jButton69 = new javax.swing.JButton();
-        jButton70 = new javax.swing.JButton();
-        jButton72 = new javax.swing.JButton();
-        jButton73 = new javax.swing.JButton();
-        jButton74 = new javax.swing.JButton();
-        jButton75 = new javax.swing.JButton();
-        jButton76 = new javax.swing.JButton();
-        jButton77 = new javax.swing.JButton();
-        jButton78 = new javax.swing.JButton();
-        jButton29 = new javax.swing.JButton();
-        jButton30 = new javax.swing.JButton();
-        jButton31 = new javax.swing.JButton();
-        jButton32 = new javax.swing.JButton();
-        jButton33 = new javax.swing.JButton();
-        jButton38 = new javax.swing.JButton();
-        jButton39 = new javax.swing.JButton();
-        jButton40 = new javax.swing.JButton();
-        jButton41 = new javax.swing.JButton();
-        jButton42 = new javax.swing.JButton();
-        jButton79 = new javax.swing.JButton();
-        jButton80 = new javax.swing.JButton();
-        jButton81 = new javax.swing.JButton();
-        jButton82 = new javax.swing.JButton();
-        jButton84 = new javax.swing.JButton();
-        jButton85 = new javax.swing.JButton();
-        jButton86 = new javax.swing.JButton();
-        jButton88 = new javax.swing.JButton();
-        jButton34 = new javax.swing.JButton();
-        jButton35 = new javax.swing.JButton();
-        jButton36 = new javax.swing.JButton();
-        jButton37 = new javax.swing.JButton();
-        jButton43 = new javax.swing.JButton();
-        jButton44 = new javax.swing.JButton();
-        jButton45 = new javax.swing.JButton();
-        jButton46 = new javax.swing.JButton();
-        jButton89 = new javax.swing.JButton();
-        jLabel2 = new javax.swing.JLabel();
-        jButton90 = new javax.swing.JButton();
-        jButton91 = new javax.swing.JButton();
-        jButton92 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
+        btn_screen = new javax.swing.JButton();
+        A02 = new javax.swing.JButton();
+        G02 = new javax.swing.JButton();
+        G04 = new javax.swing.JButton();
+        G05 = new javax.swing.JButton();
+        D01 = new javax.swing.JButton();
+        D03 = new javax.swing.JButton();
+        E01 = new javax.swing.JButton();
+        E03 = new javax.swing.JButton();
+        D02 = new javax.swing.JButton();
+        D04 = new javax.swing.JButton();
+        D06 = new javax.swing.JButton();
+        E02 = new javax.swing.JButton();
+        E04 = new javax.swing.JButton();
+        H01 = new javax.swing.JButton();
+        H02 = new javax.swing.JButton();
+        F02 = new javax.swing.JButton();
+        F04 = new javax.swing.JButton();
+        E06 = new javax.swing.JButton();
+        F01 = new javax.swing.JButton();
+        F03 = new javax.swing.JButton();
+        E05 = new javax.swing.JButton();
+        H03 = new javax.swing.JButton();
+        F05 = new javax.swing.JButton();
+        F06 = new javax.swing.JButton();
+        A04 = new javax.swing.JButton();
+        A06 = new javax.swing.JButton();
+        B02 = new javax.swing.JButton();
+        A01 = new javax.swing.JButton();
+        A03 = new javax.swing.JButton();
+        A05 = new javax.swing.JButton();
+        B03 = new javax.swing.JButton();
+        B05 = new javax.swing.JButton();
+        C01 = new javax.swing.JButton();
+        C03 = new javax.swing.JButton();
+        B06 = new javax.swing.JButton();
+        C02 = new javax.swing.JButton();
+        C04 = new javax.swing.JButton();
+        C05 = new javax.swing.JButton();
+        C06 = new javax.swing.JButton();
+        G03 = new javax.swing.JButton();
+        lab_choose = new javax.swing.JLabel();
+        D05 = new javax.swing.JButton();
+        B01 = new javax.swing.JButton();
+        B04 = new javax.swing.JButton();
+        btn_open = new javax.swing.JButton();
+        btn_check = new javax.swing.JButton();
+        jLayeredPane1 = new javax.swing.JLayeredPane();
+        statusImg = new javax.swing.JLabel();
+        jPanel4 = new javax.swing.JPanel();
+        delNum = new javax.swing.JLabel();
+        lab_text = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -100,10 +105,10 @@ public class ManagerChoose extends javax.swing.JFrame {
 
         jPanel2.setBackground(new java.awt.Color(251, 205, 57));
 
-        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/return.png"))); // NOI18N
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        btn_return.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/return.png"))); // NOI18N
+        btn_return.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                btn_returnActionPerformed(evt);
             }
         });
 
@@ -113,39 +118,39 @@ public class ManagerChoose extends javax.swing.JFrame {
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btn_return, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(646, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGap(19, 19, 19)
-                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btn_return, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(23, Short.MAX_VALUE))
         );
 
-        jButton20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
+        G01.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
         this.checkWhichKey();
-        jButton20.setText("A1");
-        jButton20.addActionListener(new java.awt.event.ActionListener() {
+        G01.setText("A1");
+        G01.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton20ActionPerformed(evt);
+                G01ActionPerformed(evt);
             }
         });
 
-        jButton25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
-        jButton25.setText("F1");
-        jButton25.addActionListener(new java.awt.event.ActionListener() {
+        G06.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
+        G06.setText("F1");
+        G06.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton25ActionPerformed(evt);
+                G06ActionPerformed(evt);
             }
         });
 
         jPanel3.setBackground(new java.awt.Color(255, 96, 10));
 
-        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/screen.png"))); // NOI18N
-        jButton2.setText("jButton2");
-        jButton2.setFocusPainted(false);
+        btn_screen.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/screen.png"))); // NOI18N
+        btn_screen.setText("jButton2");
+        btn_screen.setFocusPainted(false);
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
@@ -153,374 +158,374 @@ public class ManagerChoose extends javax.swing.JFrame {
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel3Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                .addComponent(btn_screen, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
                 .addContainerGap())
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel3Layout.createSequentialGroup()
                 .addGap(54, 54, 54)
-                .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 143, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btn_screen, javax.swing.GroupLayout.PREFERRED_SIZE, 143, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(352, Short.MAX_VALUE))
         );
 
-        jButton48.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
-        jButton48.setText("jButton20");
-        jButton48.addActionListener(new java.awt.event.ActionListener() {
+        A02.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
+        A02.setText("jButton20");
+        A02.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton48ActionPerformed(evt);
+                A02ActionPerformed(evt);
             }
         });
 
-        jButton47.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
-        jButton47.setText("B1");
-        jButton47.addActionListener(new java.awt.event.ActionListener() {
+        G02.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
+        G02.setText("B1");
+        G02.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton47ActionPerformed(evt);
+                G02ActionPerformed(evt);
             }
         });
 
-        jButton67.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
-        jButton67.setText("D1");
-        jButton67.addActionListener(new java.awt.event.ActionListener() {
+        G04.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
+        G04.setText("D1");
+        G04.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton67ActionPerformed(evt);
+                G04ActionPerformed(evt);
             }
         });
 
-        jButton68.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
-        jButton68.setText("E1");
-        jButton68.addActionListener(new java.awt.event.ActionListener() {
+        G05.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
+        G05.setText("E1");
+        G05.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton68ActionPerformed(evt);
+                G05ActionPerformed(evt);
             }
         });
 
-        jButton69.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
-        jButton69.setText("jButton20");
-        jButton69.addActionListener(new java.awt.event.ActionListener() {
+        D01.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
+        D01.setText("jButton20");
+        D01.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton69ActionPerformed(evt);
+                D01ActionPerformed(evt);
             }
         });
 
-        jButton70.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
-        jButton70.setText("jButton20");
-        jButton70.addActionListener(new java.awt.event.ActionListener() {
+        D03.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
+        D03.setText("jButton20");
+        D03.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton70ActionPerformed(evt);
+                D03ActionPerformed(evt);
             }
         });
 
-        jButton72.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
-        jButton72.setText("jButton20");
-        jButton72.addActionListener(new java.awt.event.ActionListener() {
+        E01.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
+        E01.setText("jButton20");
+        E01.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton72ActionPerformed(evt);
+                E01ActionPerformed(evt);
             }
         });
 
-        jButton73.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
-        jButton73.setText("jButton20");
-        jButton73.addActionListener(new java.awt.event.ActionListener() {
+        E03.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
+        E03.setText("jButton20");
+        E03.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton73ActionPerformed(evt);
+                E03ActionPerformed(evt);
             }
         });
 
-        jButton74.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
-        jButton74.setText("jButton20");
-        jButton74.addActionListener(new java.awt.event.ActionListener() {
+        D02.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
+        D02.setText("jButton20");
+        D02.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton74ActionPerformed(evt);
+                D02ActionPerformed(evt);
             }
         });
 
-        jButton75.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
-        jButton75.setText("jButton20");
-        jButton75.addActionListener(new java.awt.event.ActionListener() {
+        D04.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
+        D04.setText("jButton20");
+        D04.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton75ActionPerformed(evt);
+                D04ActionPerformed(evt);
             }
         });
 
-        jButton76.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
-        jButton76.setText("jButton20");
-        jButton76.addActionListener(new java.awt.event.ActionListener() {
+        D06.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
+        D06.setText("jButton20");
+        D06.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton76ActionPerformed(evt);
+                D06ActionPerformed(evt);
             }
         });
 
-        jButton77.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
-        jButton77.setText("jButton20");
-        jButton77.addActionListener(new java.awt.event.ActionListener() {
+        E02.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
+        E02.setText("jButton20");
+        E02.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton77ActionPerformed(evt);
+                E02ActionPerformed(evt);
             }
         });
 
-        jButton78.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
-        jButton78.setText("jButton20");
-        jButton78.addActionListener(new java.awt.event.ActionListener() {
+        E04.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
+        E04.setText("jButton20");
+        E04.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton78ActionPerformed(evt);
+                E04ActionPerformed(evt);
             }
         });
 
-        jButton29.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
-        jButton29.setText("G1");
-        jButton29.addActionListener(new java.awt.event.ActionListener() {
+        H01.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
+        H01.setText("G1");
+        H01.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton29ActionPerformed(evt);
+                H01ActionPerformed(evt);
             }
         });
 
-        jButton30.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
-        jButton30.setText("H1");
-        jButton30.addActionListener(new java.awt.event.ActionListener() {
+        H02.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
+        H02.setText("H1");
+        H02.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton30ActionPerformed(evt);
+                H02ActionPerformed(evt);
             }
         });
 
-        jButton31.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
-        jButton31.setText("jButton20");
-        jButton31.addActionListener(new java.awt.event.ActionListener() {
+        F02.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
+        F02.setText("jButton20");
+        F02.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton31ActionPerformed(evt);
+                F02ActionPerformed(evt);
             }
         });
 
-        jButton32.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
-        jButton32.setText("jButton20");
-        jButton32.addActionListener(new java.awt.event.ActionListener() {
+        F04.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
+        F04.setText("jButton20");
+        F04.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton32ActionPerformed(evt);
+                F04ActionPerformed(evt);
             }
         });
 
-        jButton33.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
-        jButton33.setText("jButton20");
-        jButton33.addActionListener(new java.awt.event.ActionListener() {
+        E06.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
+        E06.setText("jButton20");
+        E06.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton33ActionPerformed(evt);
+                E06ActionPerformed(evt);
             }
         });
 
-        jButton38.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
-        jButton38.setText("jButton20");
-        jButton38.addActionListener(new java.awt.event.ActionListener() {
+        F01.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
+        F01.setText("jButton20");
+        F01.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton38ActionPerformed(evt);
+                F01ActionPerformed(evt);
             }
         });
 
-        jButton39.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
-        jButton39.setText("jButton20");
-        jButton39.addActionListener(new java.awt.event.ActionListener() {
+        F03.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
+        F03.setText("jButton20");
+        F03.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton39ActionPerformed(evt);
+                F03ActionPerformed(evt);
             }
         });
 
-        jButton40.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
-        jButton40.setText("jButton20");
-        jButton40.addActionListener(new java.awt.event.ActionListener() {
+        E05.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
+        E05.setText("jButton20");
+        E05.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton40ActionPerformed(evt);
+                E05ActionPerformed(evt);
             }
         });
 
-        jButton41.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
-        jButton41.setText("I1");
-        jButton41.addActionListener(new java.awt.event.ActionListener() {
+        H03.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
+        H03.setText("I1");
+        H03.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton41ActionPerformed(evt);
+                H03ActionPerformed(evt);
             }
         });
 
-        jButton42.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
-        jButton42.setText("jButton20");
-        jButton42.addActionListener(new java.awt.event.ActionListener() {
+        F05.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
+        F05.setText("jButton20");
+        F05.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton42ActionPerformed(evt);
+                F05ActionPerformed(evt);
             }
         });
 
-        jButton79.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
-        jButton79.setText("jButton20");
-        jButton79.addActionListener(new java.awt.event.ActionListener() {
+        F06.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
+        F06.setText("jButton20");
+        F06.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton79ActionPerformed(evt);
+                F06ActionPerformed(evt);
             }
         });
 
-        jButton80.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
-        jButton80.setText("jButton20");
-        jButton80.addActionListener(new java.awt.event.ActionListener() {
+        A04.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
+        A04.setText("jButton20");
+        A04.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton80ActionPerformed(evt);
+                A04ActionPerformed(evt);
             }
         });
 
-        jButton81.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
-        jButton81.setText("jButton20");
-        jButton81.addActionListener(new java.awt.event.ActionListener() {
+        A06.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
+        A06.setText("jButton20");
+        A06.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton81ActionPerformed(evt);
+                A06ActionPerformed(evt);
             }
         });
 
-        jButton82.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
-        jButton82.setText("jButton20");
-        jButton82.addActionListener(new java.awt.event.ActionListener() {
+        B02.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
+        B02.setText("jButton20");
+        B02.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton82ActionPerformed(evt);
+                B02ActionPerformed(evt);
             }
         });
 
-        jButton84.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
-        jButton84.setText("jButton20");
-        jButton84.addActionListener(new java.awt.event.ActionListener() {
+        A01.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
+        A01.setText("jButton20");
+        A01.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton84ActionPerformed(evt);
+                A01ActionPerformed(evt);
             }
         });
 
-        jButton85.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
-        jButton85.setText("jButton20");
-        jButton85.addActionListener(new java.awt.event.ActionListener() {
+        A03.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
+        A03.setText("jButton20");
+        A03.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton85ActionPerformed(evt);
+                A03ActionPerformed(evt);
             }
         });
 
-        jButton86.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
-        jButton86.setText("jButton20");
-        jButton86.addActionListener(new java.awt.event.ActionListener() {
+        A05.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
+        A05.setText("jButton20");
+        A05.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton86ActionPerformed(evt);
+                A05ActionPerformed(evt);
             }
         });
 
-        jButton88.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
-        jButton88.setText("jButton20");
-        jButton88.addActionListener(new java.awt.event.ActionListener() {
+        B03.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
+        B03.setText("jButton20");
+        B03.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton88ActionPerformed(evt);
+                B03ActionPerformed(evt);
             }
         });
 
-        jButton34.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
-        jButton34.setText("jButton20");
-        jButton34.addActionListener(new java.awt.event.ActionListener() {
+        B05.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
+        B05.setText("jButton20");
+        B05.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton34ActionPerformed(evt);
+                B05ActionPerformed(evt);
             }
         });
 
-        jButton35.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
-        jButton35.setText("jButton20");
-        jButton35.addActionListener(new java.awt.event.ActionListener() {
+        C01.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
+        C01.setText("jButton20");
+        C01.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton35ActionPerformed(evt);
+                C01ActionPerformed(evt);
             }
         });
 
-        jButton36.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
-        jButton36.setText("jButton20");
-        jButton36.addActionListener(new java.awt.event.ActionListener() {
+        C03.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
+        C03.setText("jButton20");
+        C03.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton36ActionPerformed(evt);
+                C03ActionPerformed(evt);
             }
         });
 
-        jButton37.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
-        jButton37.setText("jButton20");
-        jButton37.addActionListener(new java.awt.event.ActionListener() {
+        B06.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
+        B06.setText("jButton20");
+        B06.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton37ActionPerformed(evt);
+                B06ActionPerformed(evt);
             }
         });
 
-        jButton43.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
-        jButton43.setText("jButton20");
-        jButton43.addActionListener(new java.awt.event.ActionListener() {
+        C02.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
+        C02.setText("jButton20");
+        C02.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton43ActionPerformed(evt);
+                C02ActionPerformed(evt);
             }
         });
 
-        jButton44.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
-        jButton44.setText("jButton20");
-        jButton44.addActionListener(new java.awt.event.ActionListener() {
+        C04.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
+        C04.setText("jButton20");
+        C04.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton44ActionPerformed(evt);
+                C04ActionPerformed(evt);
             }
         });
 
-        jButton45.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
-        jButton45.setText("jButton20");
-        jButton45.addActionListener(new java.awt.event.ActionListener() {
+        C05.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
+        C05.setText("jButton20");
+        C05.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton45ActionPerformed(evt);
+                C05ActionPerformed(evt);
             }
         });
 
-        jButton46.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
-        jButton46.setText("jButton20");
-        jButton46.addActionListener(new java.awt.event.ActionListener() {
+        C06.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
+        C06.setText("jButton20");
+        C06.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton46ActionPerformed(evt);
+                C06ActionPerformed(evt);
             }
         });
 
-        jButton89.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
-        jButton89.setText("C1");
-        jButton89.addActionListener(new java.awt.event.ActionListener() {
+        G03.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
+        G03.setText("C1");
+        G03.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton89ActionPerformed(evt);
+                G03ActionPerformed(evt);
             }
         });
 
-        jLabel2.setFont(new java.awt.Font("微软雅黑", 0, 64)); // NOI18N
-        jLabel2.setText("请点选快递柜");
+        lab_choose.setFont(new java.awt.Font("微软雅黑", 0, 64)); // NOI18N
+        lab_choose.setText("请点选快递柜");
 
-        jButton90.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
-        jButton90.setText("jButton20");
-        jButton90.addActionListener(new java.awt.event.ActionListener() {
+        D05.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
+        D05.setText("jButton20");
+        D05.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton90ActionPerformed(evt);
+                D05ActionPerformed(evt);
             }
         });
 
-        jButton91.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
-        jButton91.setText("jButton20");
-        jButton91.addActionListener(new java.awt.event.ActionListener() {
+        B01.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
+        B01.setText("jButton20");
+        B01.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton91ActionPerformed(evt);
+                B01ActionPerformed(evt);
             }
         });
 
-        jButton92.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
-        jButton92.setText("jButton20");
-        jButton92.addActionListener(new java.awt.event.ActionListener() {
+        B04.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png"))); // NOI18N
+        B04.setText("jButton20");
+        B04.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton92ActionPerformed(evt);
+                B04ActionPerformed(evt);
             }
         });
 
-        jButton3.setVisible(false);
-        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/opendoor.png"))); // NOI18N
-        jButton3.addActionListener(new java.awt.event.ActionListener() {
+        btn_open.setVisible(false);
+        btn_open.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/opendoor.png"))); // NOI18N
+        btn_open.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton3ActionPerformed(evt);
+                btn_openActionPerformed(evt);
             }
         });
 
-        jButton4.setVisible(false);
-        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/checkbox.png"))); // NOI18N
+        btn_check.setVisible(false);
+        btn_check.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/checkbox.png"))); // NOI18N
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -536,594 +541,671 @@ public class ManagerChoose extends javax.swing.JFrame {
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jButton67, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jButton68, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jButton89, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jButton41, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jButton30, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jButton29, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(G04, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(G05, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(G03, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(H03, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(H02, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(H01, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                        .addComponent(jButton70, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(jButton72, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(jButton39, javax.swing.GroupLayout.PREFERRED_SIZE, 1, Short.MAX_VALUE)
-                                        .addComponent(jButton38, javax.swing.GroupLayout.PREFERRED_SIZE, 1, Short.MAX_VALUE)
-                                        .addComponent(jButton40, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-                                        .addComponent(jButton73, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(jButton42, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addComponent(jButton90, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addComponent(D03, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(E01, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(F03, javax.swing.GroupLayout.PREFERRED_SIZE, 1, Short.MAX_VALUE)
+                                        .addComponent(F01, javax.swing.GroupLayout.PREFERRED_SIZE, 1, Short.MAX_VALUE)
+                                        .addComponent(E05, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                                        .addComponent(E03, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(F05, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(D05, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jButton76, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jButton75, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jButton77, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jButton78, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jButton33, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jButton31, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jButton32, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jButton79, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                    .addComponent(D06, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(D04, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(E02, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(E04, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(E06, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(F02, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(F04, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(F06, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addComponent(jButton25, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-                                    .addComponent(jButton47, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-                                    .addComponent(jButton20, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(G06, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                                    .addComponent(G02, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                                    .addComponent(G01, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jButton69, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(D01, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jButton74, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addComponent(D02, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addGap(8, 8, 8)
                         .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(jButton86, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(jButton85, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(A05, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(A03, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jButton88, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jButton34, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jButton35, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jButton36, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jButton45, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jButton84, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                            .addComponent(jButton91, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(B03, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(B05, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(C01, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(C03, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(C05, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(A01, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(B01, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                .addComponent(jButton82, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(jButton81, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(jButton80, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(jButton37, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jButton43, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jButton44, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jButton46, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jButton48, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jButton92, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(B02, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(A06, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(A04, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(B06, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(C02, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(C04, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(C06, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(A02, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(B04, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addContainerGap())
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                                .addComponent(jLabel2)
-                                .addGap(182, 182, 182))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                                .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(38, 38, 38)
-                                .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(154, 154, 154))))))
+                        .addComponent(lab_choose)
+                        .addGap(182, 182, 182))))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(btn_open, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(38, 38, 38)
+                .addComponent(btn_check, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(155, 155, 155))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(48, 48, 48)
-                .addComponent(jLabel2)
-                .addGap(42, 42, 42)
+                .addComponent(lab_choose)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 164, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(87, 87, 87)
+                    .addComponent(btn_open, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn_check, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(68, 68, 68)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                         .addGroup(jPanel1Layout.createSequentialGroup()
                             .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                .addComponent(jButton84, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(jButton48, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(A01, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(A02, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                            .addComponent(jButton85, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(A03, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                            .addComponent(jButton86, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(A05, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGap(52, 52, 52)
                             .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                .addComponent(jButton88, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(jButton92, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(B03, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(B04, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                            .addComponent(jButton34, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(B05, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                            .addComponent(jButton35, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(C01, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                            .addComponent(jButton36, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(C03, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                            .addComponent(jButton45, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(C05, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGroup(jPanel1Layout.createSequentialGroup()
-                            .addComponent(jButton80, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(A04, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                            .addComponent(jButton81, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(A06, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                             .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                .addComponent(jButton82, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(jButton91, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(B02, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(B01, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGap(52, 52, 52)
-                            .addComponent(jButton37, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(B06, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                            .addComponent(jButton43, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(C02, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                            .addComponent(jButton44, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(C04, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                            .addComponent(jButton46, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(C06, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addComponent(jPanel3, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                         .addGroup(jPanel1Layout.createSequentialGroup()
                             .addGap(46, 46, 46)
-                            .addComponent(jButton47, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(G02, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGroup(jPanel1Layout.createSequentialGroup()
                             .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                .addComponent(jButton20, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(jButton69, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(jButton74, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(G01, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(D01, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(D02, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                 .addGroup(jPanel1Layout.createSequentialGroup()
                                     .addGap(190, 190, 190)
-                                    .addComponent(jButton25, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(G06, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addGroup(jPanel1Layout.createSequentialGroup()
                                     .addGap(6, 6, 6)
                                     .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                         .addGroup(jPanel1Layout.createSequentialGroup()
-                                            .addComponent(jButton70, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(D03, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                            .addComponent(jButton89, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                                .addComponent(jButton72, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addComponent(jButton67, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                            .addComponent(G03, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                             .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                                .addComponent(jButton73, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addComponent(jButton68, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                                .addComponent(E01, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addComponent(G04, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                                .addComponent(E03, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addComponent(G05, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
                                             .addGap(70, 70, 70)
                                             .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                                 .addGroup(jPanel1Layout.createSequentialGroup()
                                                     .addGap(128, 128, 128)
                                                     .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                                        .addComponent(jButton42, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                        .addComponent(jButton41, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                                        .addComponent(F05, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                        .addComponent(H03, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE)))
                                                 .addGroup(jPanel1Layout.createSequentialGroup()
                                                     .addGap(64, 64, 64)
                                                     .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                                        .addComponent(jButton39, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                        .addComponent(jButton30, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                                                        .addComponent(F03, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                        .addComponent(H02, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE)))))
                                         .addGroup(jPanel1Layout.createSequentialGroup()
                                             .addGap(184, 184, 184)
-                                            .addComponent(jButton40, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                            .addComponent(E05, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE))
                                         .addGroup(jPanel1Layout.createSequentialGroup()
                                             .addGap(248, 248, 248)
                                             .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                                .addComponent(jButton38, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addComponent(jButton29, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE)))))))
+                                                .addComponent(F01, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addComponent(H01, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE)))))))
                         .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(jButton75, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(D04, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                    .addComponent(jButton76, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jButton90, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(D06, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(D05, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jButton77, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(E02, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jButton78, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(E04, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(70, 70, 70)
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(jPanel1Layout.createSequentialGroup()
                                         .addGap(128, 128, 128)
-                                        .addComponent(jButton79, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addComponent(F06, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE))
                                     .addGroup(jPanel1Layout.createSequentialGroup()
                                         .addGap(64, 64, 64)
-                                        .addComponent(jButton32, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                        .addComponent(F04, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE))))
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addGap(184, 184, 184)
-                                .addComponent(jButton33, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(E06, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addGap(248, 248, 248)
-                                .addComponent(jButton31, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                .addContainerGap(31, Short.MAX_VALUE))
+                                .addComponent(F02, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                .addContainerGap())
+        );
+
+        statusImg.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        statusImg.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/yes.png"))); // NOI18N
+        statusImg.setText("jLabel1");
+
+        delNum.setFont(new java.awt.Font("微软雅黑", 0, 32)); // NOI18N
+        delNum.setText("C2");
+
+        lab_text.setFont(new java.awt.Font("微软雅黑", 0, 32)); // NOI18N
+        lab_text.setText("柜门已打开，请检查后关闭柜门");
+
+        javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
+        jPanel4.setLayout(jPanel4Layout);
+        jPanel4Layout.setHorizontalGroup(
+            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 748, Short.MAX_VALUE)
+            .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jPanel4Layout.createSequentialGroup()
+                    .addContainerGap()
+                    .addComponent(delNum)
+                    .addContainerGap(698, Short.MAX_VALUE)))
+            .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
+                    .addContainerGap(290, Short.MAX_VALUE)
+                    .addComponent(lab_text)
+                    .addContainerGap()))
+        );
+        jPanel4Layout.setVerticalGroup(
+            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 72, Short.MAX_VALUE)
+            .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jPanel4Layout.createSequentialGroup()
+                    .addGap(14, 14, 14)
+                    .addComponent(delNum)
+                    .addContainerGap(15, Short.MAX_VALUE)))
+            .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jPanel4Layout.createSequentialGroup()
+                    .addGap(14, 14, 14)
+                    .addComponent(lab_text)
+                    .addContainerGap(15, Short.MAX_VALUE)))
+        );
+
+        jLayeredPane1.setLayer(statusImg, javax.swing.JLayeredPane.DEFAULT_LAYER);
+        jLayeredPane1.setLayer(jPanel4, javax.swing.JLayeredPane.DEFAULT_LAYER);
+
+        javax.swing.GroupLayout jLayeredPane1Layout = new javax.swing.GroupLayout(jLayeredPane1);
+        jLayeredPane1.setLayout(jLayeredPane1Layout);
+        jLayeredPane1Layout.setHorizontalGroup(
+            jLayeredPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 768, Short.MAX_VALUE)
+            .addGroup(jLayeredPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jLayeredPane1Layout.createSequentialGroup()
+                    .addContainerGap()
+                    .addComponent(statusImg, javax.swing.GroupLayout.DEFAULT_SIZE, 748, Short.MAX_VALUE)
+                    .addContainerGap()))
+            .addGroup(jLayeredPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jLayeredPane1Layout.createSequentialGroup()
+                    .addContainerGap()
+                    .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addContainerGap()))
+        );
+        jLayeredPane1Layout.setVerticalGroup(
+            jLayeredPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 438, Short.MAX_VALUE)
+            .addGroup(jLayeredPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jLayeredPane1Layout.createSequentialGroup()
+                    .addComponent(statusImg)
+                    .addGap(0, 325, Short.MAX_VALUE)))
+            .addGroup(jLayeredPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jLayeredPane1Layout.createSequentialGroup()
+                    .addContainerGap(167, Short.MAX_VALUE)
+                    .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addContainerGap(199, Short.MAX_VALUE)))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGap(0, 0, 0))
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addComponent(jLayeredPane1))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                    .addContainerGap(108, Short.MAX_VALUE)
+                    .addComponent(jLayeredPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addContainerGap(563, Short.MAX_VALUE)))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton36ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton36ActionPerformed
+    private void C03ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_C03ActionPerformed
         // TODO add your handling code here:
-        jLabel2.setVisible(false);
-        jButton3.setVisible(true);
-        jButton4.setVisible(true);
-        jButton36.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_2.png")));
-    }//GEN-LAST:event_jButton36ActionPerformed
+        lab_choose.setVisible(false);
+        btn_open.setVisible(true);
+        btn_check.setVisible(true);
+        C03.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_2.png")));
+    }//GEN-LAST:event_C03ActionPerformed
 
-    private void jButton85ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton85ActionPerformed
+    private void A03ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_A03ActionPerformed
         // TODO add your handling code here:
-        jLabel2.setVisible(false);
-        jButton3.setVisible(true);
-        jButton4.setVisible(true);
-        jButton85.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_3.png")));
-    }//GEN-LAST:event_jButton85ActionPerformed
+        lab_choose.setVisible(false);
+        btn_open.setVisible(true);
+        btn_check.setVisible(true);
+        A03.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_3.png")));
+    }//GEN-LAST:event_A03ActionPerformed
 
-    private void jButton80ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton80ActionPerformed
+    private void A04ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_A04ActionPerformed
         // TODO add your handling code here:
-       jLabel2.setVisible(false);
-        jButton3.setVisible(true);
-        jButton4.setVisible(true);
-        jButton80.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_3.png")));
-    }//GEN-LAST:event_jButton80ActionPerformed
+       lab_choose.setVisible(false);
+        btn_open.setVisible(true);
+        btn_check.setVisible(true);
+        A04.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_3.png")));
+    }//GEN-LAST:event_A04ActionPerformed
 
-    private void jButton77ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton77ActionPerformed
+    private void E02ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_E02ActionPerformed
         // TODO add your handling code here:
-       jLabel2.setVisible(false);
-        jButton3.setVisible(true);
-        jButton4.setVisible(true);
-        jButton77.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose.png")));
-    }//GEN-LAST:event_jButton77ActionPerformed
+       lab_choose.setVisible(false);
+        btn_open.setVisible(true);
+        btn_check.setVisible(true);
+        E02.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose.png")));
+    }//GEN-LAST:event_E02ActionPerformed
 
-    private void jButton20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton20ActionPerformed
+    private void G01ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_G01ActionPerformed
         // TODO add your handling code here:
-        jButton20.setActionCommand("DXQ");
-        jLabel2.setVisible(false);
-        jButton3.setVisible(true);
-        jButton4.setVisible(true);
-        jButton20.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose.png")));
-    }//GEN-LAST:event_jButton20ActionPerformed
+        G01.setActionCommand("DXQ");
+        lab_choose.setVisible(false);
+        btn_open.setVisible(true);
+        btn_check.setVisible(true);
+        G01.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose.png")));
+    }//GEN-LAST:event_G01ActionPerformed
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void btn_returnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_returnActionPerformed
         // TODO add your handling code here:
-        new ManagerPWD().setVisible(true);
-        this.dispose();
-    }//GEN-LAST:event_jButton1ActionPerformed
+        
+    }//GEN-LAST:event_btn_returnActionPerformed
 
-    private void jButton29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton29ActionPerformed
+    private void H01ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_H01ActionPerformed
         // TODO add your handling code here:
-        jLabel2.setVisible(false);
-        jButton3.setVisible(true);
-        jButton4.setVisible(true);
-        jButton29.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose.png")));
-    }//GEN-LAST:event_jButton29ActionPerformed
+        lab_choose.setVisible(false);
+        btn_open.setVisible(true);
+        btn_check.setVisible(true);
+        H01.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose.png")));
+    }//GEN-LAST:event_H01ActionPerformed
 
-    private void jButton47ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton47ActionPerformed
+    private void G02ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_G02ActionPerformed
         // TODO add your handling code here:
-        jLabel2.setVisible(false);
-        jButton3.setVisible(true);
-        jButton4.setVisible(true);
-        jButton47.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose.png")));
-    }//GEN-LAST:event_jButton47ActionPerformed
+        lab_choose.setVisible(false);
+        btn_open.setVisible(true);
+        btn_check.setVisible(true);
+        G02.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose.png")));
+    }//GEN-LAST:event_G02ActionPerformed
 
-    private void jButton89ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton89ActionPerformed
+    private void G03ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_G03ActionPerformed
         // TODO add your handling code here:
-        jLabel2.setVisible(false);
-        jButton3.setVisible(true);
-        jButton4.setVisible(true);
-        jButton89.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose.png")));
-    }//GEN-LAST:event_jButton89ActionPerformed
+        lab_choose.setVisible(false);
+        btn_open.setVisible(true);
+        btn_check.setVisible(true);
+        G03.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose.png")));
+    }//GEN-LAST:event_G03ActionPerformed
 
-    private void jButton67ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton67ActionPerformed
+    private void G04ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_G04ActionPerformed
         // TODO add your handling code here:
-        jLabel2.setVisible(false);
-        jButton3.setVisible(true);
-        jButton4.setVisible(true);
-        jButton67.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose.png")));
-    }//GEN-LAST:event_jButton67ActionPerformed
+        lab_choose.setVisible(false);
+        btn_open.setVisible(true);
+        btn_check.setVisible(true);
+        G04.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose.png")));
+    }//GEN-LAST:event_G04ActionPerformed
 
-    private void jButton68ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton68ActionPerformed
+    private void G05ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_G05ActionPerformed
         // TODO add your handling code here:
-        jLabel2.setVisible(false);
-        jButton3.setVisible(true);
-        jButton4.setVisible(true);
-        jButton68.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose.png")));
-    }//GEN-LAST:event_jButton68ActionPerformed
+        lab_choose.setVisible(false);
+        btn_open.setVisible(true);
+        btn_check.setVisible(true);
+        G05.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose.png")));
+    }//GEN-LAST:event_G05ActionPerformed
 
-    private void jButton25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton25ActionPerformed
+    private void G06ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_G06ActionPerformed
         // TODO add your handling code here:
-        jLabel2.setVisible(false);
-        jButton3.setVisible(true);
-        jButton4.setVisible(true);
-        jButton25.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_1.png")));
-    }//GEN-LAST:event_jButton25ActionPerformed
+        lab_choose.setVisible(false);
+        btn_open.setVisible(true);
+        btn_check.setVisible(true);
+        G06.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_1.png")));
+    }//GEN-LAST:event_G06ActionPerformed
 
-    private void jButton30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton30ActionPerformed
+    private void H02ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_H02ActionPerformed
         // TODO add your handling code here:
-      jLabel2.setVisible(false);
-        jButton3.setVisible(true);
-        jButton4.setVisible(true);
-        jButton30.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_1.png")));
-    }//GEN-LAST:event_jButton30ActionPerformed
+      lab_choose.setVisible(false);
+        btn_open.setVisible(true);
+        btn_check.setVisible(true);
+        H02.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_1.png")));
+    }//GEN-LAST:event_H02ActionPerformed
 
-    private void jButton41ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton41ActionPerformed
+    private void H03ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_H03ActionPerformed
         // TODO add your handling code here:
-        jLabel2.setVisible(false);
-        jButton3.setVisible(true);
-        jButton4.setVisible(true);
-        jButton41.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_2.png")));
-    }//GEN-LAST:event_jButton41ActionPerformed
+        lab_choose.setVisible(false);
+        btn_open.setVisible(true);
+        btn_check.setVisible(true);
+        H03.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_2.png")));
+    }//GEN-LAST:event_H03ActionPerformed
 
-    private void jButton69ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton69ActionPerformed
+    private void D01ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_D01ActionPerformed
         // TODO add your handling code here:
-       jLabel2.setVisible(false);
-        jButton3.setVisible(true);
-        jButton4.setVisible(true);
-        jButton69.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose.png")));
-    }//GEN-LAST:event_jButton69ActionPerformed
+       lab_choose.setVisible(false);
+        btn_open.setVisible(true);
+        btn_check.setVisible(true);
+        D01.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose.png")));
+    }//GEN-LAST:event_D01ActionPerformed
 
-    private void jButton70ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton70ActionPerformed
+    private void D03ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_D03ActionPerformed
         // TODO add your handling code here:
-     jLabel2.setVisible(false);
-        jButton3.setVisible(true);
-        jButton4.setVisible(true);
-        jButton70.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose.png")));
-    }//GEN-LAST:event_jButton70ActionPerformed
+     lab_choose.setVisible(false);
+        btn_open.setVisible(true);
+        btn_check.setVisible(true);
+        D03.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose.png")));
+    }//GEN-LAST:event_D03ActionPerformed
 
-    private void jButton72ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton72ActionPerformed
+    private void E01ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_E01ActionPerformed
         // TODO add your handling code here:
-    jLabel2.setVisible(false);
-        jButton3.setVisible(true);
-        jButton4.setVisible(true);
-        jButton72.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose.png")));
-    }//GEN-LAST:event_jButton72ActionPerformed
+    lab_choose.setVisible(false);
+        btn_open.setVisible(true);
+        btn_check.setVisible(true);
+        E01.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose.png")));
+    }//GEN-LAST:event_E01ActionPerformed
 
-    private void jButton73ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton73ActionPerformed
+    private void E03ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_E03ActionPerformed
         // TODO add your handling code here:
-      jLabel2.setVisible(false);
-        jButton3.setVisible(true);
-        jButton4.setVisible(true);
-        jButton73.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose.png")));
-    }//GEN-LAST:event_jButton73ActionPerformed
+      lab_choose.setVisible(false);
+        btn_open.setVisible(true);
+        btn_check.setVisible(true);
+        E03.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose.png")));
+    }//GEN-LAST:event_E03ActionPerformed
 
-    private void jButton40ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton40ActionPerformed
+    private void E05ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_E05ActionPerformed
         // TODO add your handling code here:
-      jLabel2.setVisible(false);
-        jButton3.setVisible(true);
-        jButton4.setVisible(true);
-        jButton40.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_1.png")));
-    }//GEN-LAST:event_jButton40ActionPerformed
+      lab_choose.setVisible(false);
+        btn_open.setVisible(true);
+        btn_check.setVisible(true);
+        E05.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_1.png")));
+    }//GEN-LAST:event_E05ActionPerformed
 
-    private void jButton38ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton38ActionPerformed
+    private void F01ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_F01ActionPerformed
         // TODO add your handling code here:
-      jLabel2.setVisible(false);
-        jButton3.setVisible(true);
-        jButton4.setVisible(true);
-        jButton38.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_1.png")));
-    }//GEN-LAST:event_jButton38ActionPerformed
+      lab_choose.setVisible(false);
+        btn_open.setVisible(true);
+        btn_check.setVisible(true);
+        F01.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_1.png")));
+    }//GEN-LAST:event_F01ActionPerformed
 
-    private void jButton39ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton39ActionPerformed
+    private void F03ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_F03ActionPerformed
         // TODO add your handling code here:
-        jLabel2.setVisible(false);
-        jButton3.setVisible(true);
-        jButton4.setVisible(true);
-        jButton39.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_1.png")));
-    }//GEN-LAST:event_jButton39ActionPerformed
+        lab_choose.setVisible(false);
+        btn_open.setVisible(true);
+        btn_check.setVisible(true);
+        F03.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_1.png")));
+    }//GEN-LAST:event_F03ActionPerformed
 
-    private void jButton42ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton42ActionPerformed
+    private void F05ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_F05ActionPerformed
         // TODO add your handling code here:
-     jLabel2.setVisible(false);
-        jButton3.setVisible(true);
-        jButton4.setVisible(true);
-        jButton42.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_2.png")));
-    }//GEN-LAST:event_jButton42ActionPerformed
+     lab_choose.setVisible(false);
+        btn_open.setVisible(true);
+        btn_check.setVisible(true);
+        F05.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_2.png")));
+    }//GEN-LAST:event_F05ActionPerformed
 
-    private void jButton74ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton74ActionPerformed
+    private void D02ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_D02ActionPerformed
         // TODO add your handling code here:
-      jLabel2.setVisible(false);
-        jButton3.setVisible(true);
-        jButton4.setVisible(true);
-        jButton74.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose.png")));
-    }//GEN-LAST:event_jButton74ActionPerformed
+      lab_choose.setVisible(false);
+        btn_open.setVisible(true);
+        btn_check.setVisible(true);
+        D02.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose.png")));
+    }//GEN-LAST:event_D02ActionPerformed
 
-    private void jButton75ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton75ActionPerformed
+    private void D04ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_D04ActionPerformed
         // TODO add your handling code here:
-      jLabel2.setVisible(false);
-        jButton3.setVisible(true);
-        jButton4.setVisible(true);
-        jButton75.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose.png")));
-    }//GEN-LAST:event_jButton75ActionPerformed
+      lab_choose.setVisible(false);
+        btn_open.setVisible(true);
+        btn_check.setVisible(true);
+        D04.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose.png")));
+    }//GEN-LAST:event_D04ActionPerformed
 
-    private void jButton76ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton76ActionPerformed
+    private void D06ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_D06ActionPerformed
         // TODO add your handling code here:
-     jLabel2.setVisible(false);
-        jButton3.setVisible(true);
-        jButton4.setVisible(true);
-        jButton76.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose.png")));
-    }//GEN-LAST:event_jButton76ActionPerformed
+     lab_choose.setVisible(false);
+        btn_open.setVisible(true);
+        btn_check.setVisible(true);
+        D06.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose.png")));
+    }//GEN-LAST:event_D06ActionPerformed
 
-    private void jButton78ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton78ActionPerformed
+    private void E04ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_E04ActionPerformed
         // TODO add your handling code here:
-       jLabel2.setVisible(false);
-        jButton3.setVisible(true);
-        jButton4.setVisible(true);
-        jButton78.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose.png")));
-    }//GEN-LAST:event_jButton78ActionPerformed
+       lab_choose.setVisible(false);
+        btn_open.setVisible(true);
+        btn_check.setVisible(true);
+        E04.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose.png")));
+    }//GEN-LAST:event_E04ActionPerformed
 
-    private void jButton33ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton33ActionPerformed
+    private void E06ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_E06ActionPerformed
         // TODO add your handling code here:
-      jLabel2.setVisible(false);
-        jButton3.setVisible(true);
-        jButton4.setVisible(true);
-        jButton33.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_1.png")));
-    }//GEN-LAST:event_jButton33ActionPerformed
+      lab_choose.setVisible(false);
+        btn_open.setVisible(true);
+        btn_check.setVisible(true);
+        E06.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_1.png")));
+    }//GEN-LAST:event_E06ActionPerformed
 
-    private void jButton31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton31ActionPerformed
+    private void F02ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_F02ActionPerformed
         // TODO add your handling code here:
-       jLabel2.setVisible(false);
-        jButton3.setVisible(true);
-        jButton4.setVisible(true);
-        jButton31.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_1.png")));
-    }//GEN-LAST:event_jButton31ActionPerformed
+       lab_choose.setVisible(false);
+        btn_open.setVisible(true);
+        btn_check.setVisible(true);
+        F02.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_1.png")));
+    }//GEN-LAST:event_F02ActionPerformed
 
-    private void jButton32ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton32ActionPerformed
+    private void F04ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_F04ActionPerformed
         // TODO add your handling code here:
-      jLabel2.setVisible(false);
-        jButton3.setVisible(true);
-        jButton4.setVisible(true);
-        jButton32.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_1.png")));
-    }//GEN-LAST:event_jButton32ActionPerformed
+      lab_choose.setVisible(false);
+        btn_open.setVisible(true);
+        btn_check.setVisible(true);
+        F04.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_1.png")));
+    }//GEN-LAST:event_F04ActionPerformed
 
-    private void jButton79ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton79ActionPerformed
+    private void F06ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_F06ActionPerformed
         // TODO add your handling code here:
-      jLabel2.setVisible(false);
-        jButton3.setVisible(true);
-        jButton4.setVisible(true);
-        jButton79.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_2.png")));
-    }//GEN-LAST:event_jButton79ActionPerformed
+      lab_choose.setVisible(false);
+        btn_open.setVisible(true);
+        btn_check.setVisible(true);
+        F06.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_2.png")));
+    }//GEN-LAST:event_F06ActionPerformed
 
-    private void jButton84ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton84ActionPerformed
+    private void A01ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_A01ActionPerformed
         // TODO add your handling code here:
-        jLabel2.setVisible(false);
-        jButton3.setVisible(true);
-        jButton4.setVisible(true);
-        jButton84.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_3.png")));
-    }//GEN-LAST:event_jButton84ActionPerformed
+        lab_choose.setVisible(false);
+        btn_open.setVisible(true);
+        btn_check.setVisible(true);
+        A01.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_3.png")));
+    }//GEN-LAST:event_A01ActionPerformed
 
-    private void jButton86ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton86ActionPerformed
+    private void A05ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_A05ActionPerformed
         // TODO add your handling code here:
-       jLabel2.setVisible(false);
-        jButton3.setVisible(true);
-        jButton4.setVisible(true);
-        jButton86.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_3.png")));
-    }//GEN-LAST:event_jButton86ActionPerformed
+       lab_choose.setVisible(false);
+        btn_open.setVisible(true);
+        btn_check.setVisible(true);
+        A05.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_3.png")));
+    }//GEN-LAST:event_A05ActionPerformed
 
-    private void jButton88ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton88ActionPerformed
+    private void B03ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B03ActionPerformed
         // TODO add your handling code here:
-      jLabel2.setVisible(false);
-        jButton3.setVisible(true);
-        jButton4.setVisible(true);
-        jButton88.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_3.png")));
-    }//GEN-LAST:event_jButton88ActionPerformed
+      lab_choose.setVisible(false);
+        btn_open.setVisible(true);
+        btn_check.setVisible(true);
+        B03.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_3.png")));
+    }//GEN-LAST:event_B03ActionPerformed
 
-    private void jButton34ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton34ActionPerformed
+    private void B05ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B05ActionPerformed
         // TODO add your handling code here:
-       jLabel2.setVisible(false);
-        jButton3.setVisible(true);
-        jButton4.setVisible(true);
-        jButton34.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_2.png")));
-    }//GEN-LAST:event_jButton34ActionPerformed
+       lab_choose.setVisible(false);
+        btn_open.setVisible(true);
+        btn_check.setVisible(true);
+        B05.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_2.png")));
+    }//GEN-LAST:event_B05ActionPerformed
 
-    private void jButton35ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton35ActionPerformed
+    private void C01ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_C01ActionPerformed
         // TODO add your handling code here:
-       jLabel2.setVisible(false);
-        jButton3.setVisible(true);
-        jButton4.setVisible(true);
-        jButton35.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_2.png")));
-    }//GEN-LAST:event_jButton35ActionPerformed
+       lab_choose.setVisible(false);
+        btn_open.setVisible(true);
+        btn_check.setVisible(true);
+        C01.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_2.png")));
+    }//GEN-LAST:event_C01ActionPerformed
 
-    private void jButton45ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton45ActionPerformed
+    private void C05ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_C05ActionPerformed
         // TODO add your handling code here:
-       jLabel2.setVisible(false);
-        jButton3.setVisible(true);
-        jButton4.setVisible(true);
-        jButton45.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_2.png")));
-    }//GEN-LAST:event_jButton45ActionPerformed
+       lab_choose.setVisible(false);
+        btn_open.setVisible(true);
+        btn_check.setVisible(true);
+        C05.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_2.png")));
+    }//GEN-LAST:event_C05ActionPerformed
 
-    private void jButton48ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton48ActionPerformed
+    private void A02ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_A02ActionPerformed
         // TODO add your handling code here:
-      jLabel2.setVisible(false);
-        jButton3.setVisible(true);
-        jButton4.setVisible(true);
-        jButton48.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_3.png")));
-    }//GEN-LAST:event_jButton48ActionPerformed
+      lab_choose.setVisible(false);
+        btn_open.setVisible(true);
+        btn_check.setVisible(true);
+        A02.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_3.png")));
+    }//GEN-LAST:event_A02ActionPerformed
 
-    private void jButton81ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton81ActionPerformed
+    private void A06ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_A06ActionPerformed
         // TODO add your handling code here:
-       jLabel2.setVisible(false);
-        jButton3.setVisible(true);
-        jButton4.setVisible(true);
-        jButton81.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_3.png")));
-    }//GEN-LAST:event_jButton81ActionPerformed
+       lab_choose.setVisible(false);
+        btn_open.setVisible(true);
+        btn_check.setVisible(true);
+        A06.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_3.png")));
+    }//GEN-LAST:event_A06ActionPerformed
 
-    private void jButton82ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton82ActionPerformed
+    private void B02ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B02ActionPerformed
         // TODO add your handling code here:
-       jLabel2.setVisible(false);
-        jButton3.setVisible(true);
-        jButton4.setVisible(true);
-        jButton82.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_3.png")));
-    }//GEN-LAST:event_jButton82ActionPerformed
+       lab_choose.setVisible(false);
+        btn_open.setVisible(true);
+        btn_check.setVisible(true);
+        B02.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_3.png")));
+    }//GEN-LAST:event_B02ActionPerformed
 
-    private void jButton37ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton37ActionPerformed
+    private void B06ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B06ActionPerformed
         // TODO add your handling code here:
-       jLabel2.setVisible(false);
-        jButton3.setVisible(true);
-        jButton4.setVisible(true);
-        jButton37.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_2.png")));
-    }//GEN-LAST:event_jButton37ActionPerformed
+       lab_choose.setVisible(false);
+        btn_open.setVisible(true);
+        btn_check.setVisible(true);
+        B06.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_2.png")));
+    }//GEN-LAST:event_B06ActionPerformed
 
-    private void jButton43ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton43ActionPerformed
+    private void C02ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_C02ActionPerformed
         // TODO add your handling code here:
-       jLabel2.setVisible(false);
-        jButton3.setVisible(true);
-        jButton4.setVisible(true);
-        jButton43.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_2.png")));
-    }//GEN-LAST:event_jButton43ActionPerformed
+       lab_choose.setVisible(false);
+        btn_open.setVisible(true);
+        btn_check.setVisible(true);
+        C02.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_2.png")));
+    }//GEN-LAST:event_C02ActionPerformed
 
-    private void jButton44ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton44ActionPerformed
+    private void C04ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_C04ActionPerformed
         // TODO add your handling code here:
-      jLabel2.setVisible(false);
-        jButton3.setVisible(true);
-        jButton4.setVisible(true);
-        jButton44.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_2.png")));
-    }//GEN-LAST:event_jButton44ActionPerformed
+      lab_choose.setVisible(false);
+        btn_open.setVisible(true);
+        btn_check.setVisible(true);
+        C04.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_2.png")));
+    }//GEN-LAST:event_C04ActionPerformed
 
-    private void jButton46ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton46ActionPerformed
+    private void C06ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_C06ActionPerformed
         // TODO add your handling code here:
-      jLabel2.setVisible(false);
-        jButton3.setVisible(true);
-        jButton4.setVisible(true);
-        jButton46.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_2.png")));
-    }//GEN-LAST:event_jButton46ActionPerformed
+      lab_choose.setVisible(false);
+        btn_open.setVisible(true);
+        btn_check.setVisible(true);
+        C06.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_2.png")));
+    }//GEN-LAST:event_C06ActionPerformed
 
-    private void jButton90ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton90ActionPerformed
+    private void D05ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_D05ActionPerformed
         // TODO add your handling code here:
-        jLabel2.setVisible(false);
-        jButton3.setVisible(true);
-        jButton4.setVisible(true);
-        jButton90.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose.png")));
-    }//GEN-LAST:event_jButton90ActionPerformed
+        lab_choose.setVisible(false);
+        btn_open.setVisible(true);
+        btn_check.setVisible(true);
+        D05.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose.png")));
+    }//GEN-LAST:event_D05ActionPerformed
 
-    private void jButton91ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton91ActionPerformed
+    private void B01ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B01ActionPerformed
         // TODO add your handling code here:
-        jLabel2.setVisible(false);
-        jButton3.setVisible(true);
-        jButton4.setVisible(true);
-        jButton91.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_3.png")));
-    }//GEN-LAST:event_jButton91ActionPerformed
+        lab_choose.setVisible(false);
+        btn_open.setVisible(true);
+        btn_check.setVisible(true);
+        B01.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_3.png")));
+    }//GEN-LAST:event_B01ActionPerformed
 
-    private void jButton92ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton92ActionPerformed
+    private void B04ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B04ActionPerformed
         // TODO add your handling code here:
-        jLabel2.setVisible(false);
-        jButton3.setVisible(true);
-        jButton4.setVisible(true);
-        jButton92.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_3.png")));
-    }//GEN-LAST:event_jButton92ActionPerformed
+        lab_choose.setVisible(false);
+        btn_open.setVisible(true);
+        btn_check.setVisible(true);
+        B04.setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/choose_3.png")));
+    }//GEN-LAST:event_B04ActionPerformed
 
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+    private void btn_openActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_openActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton3ActionPerformed
+    }//GEN-LAST:event_btn_openActionPerformed
 
     /**
      * @param args the command line arguments
@@ -1162,9 +1244,9 @@ public class ManagerChoose extends javax.swing.JFrame {
     }
 
     private void checkWhichKey(){
-        JButton[] jButtons=new JButton[]{jButton20,jButton25,jButton29,jButton30,jButton31,jButton32,jButton33,jButton34,jButton35,jButton36,jButton37,jButton38,jButton39,jButton40,
-                            jButton41,jButton42,jButton43,jButton44,jButton45,jButton46,jButton47,jButton48,jButton67,jButton68,jButton69,jButton70,jButton72,jButton73,jButton74,jButton75,jButton76,
-                            jButton77,jButton78,jButton79,jButton80,jButton81,jButton82,jButton84,jButton85,jButton86,jButton88,jButton89,jButton90,jButton91,jButton92};
+        JButton[] jButtons=new JButton[]{G01,G06,H01,H02,F02,F04,E06,B05,C01,C03,B06,F01,F03,E05,
+                            H03,F05,C02,C04,C05,C06,G02,A02,G04,G05,D01,D03,E01,E03,D02,D04,D06,
+                            E02,E04,F06,A04,A06,B02,A01,A03,A05,B03,G03,D05,B01,B04};
         for(int i=0;i<jButtons.length;i++){
             if("DXQ".equals(jButtons[i].getActionCommand())){
                 jButtons[i].setIcon(new ImageIcon(getClass().getResource("/com/thai/demo3/java/resources/box.png")));
@@ -1173,58 +1255,63 @@ public class ManagerChoose extends javax.swing.JFrame {
     }
     
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton20;
-    private javax.swing.JButton jButton25;
-    private javax.swing.JButton jButton29;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton30;
-    private javax.swing.JButton jButton31;
-    private javax.swing.JButton jButton32;
-    private javax.swing.JButton jButton33;
-    private javax.swing.JButton jButton34;
-    private javax.swing.JButton jButton35;
-    private javax.swing.JButton jButton36;
-    private javax.swing.JButton jButton37;
-    private javax.swing.JButton jButton38;
-    private javax.swing.JButton jButton39;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton40;
-    private javax.swing.JButton jButton41;
-    private javax.swing.JButton jButton42;
-    private javax.swing.JButton jButton43;
-    private javax.swing.JButton jButton44;
-    private javax.swing.JButton jButton45;
-    private javax.swing.JButton jButton46;
-    private javax.swing.JButton jButton47;
-    private javax.swing.JButton jButton48;
-    private javax.swing.JButton jButton67;
-    private javax.swing.JButton jButton68;
-    private javax.swing.JButton jButton69;
-    private javax.swing.JButton jButton70;
-    private javax.swing.JButton jButton72;
-    private javax.swing.JButton jButton73;
-    private javax.swing.JButton jButton74;
-    private javax.swing.JButton jButton75;
-    private javax.swing.JButton jButton76;
-    private javax.swing.JButton jButton77;
-    private javax.swing.JButton jButton78;
-    private javax.swing.JButton jButton79;
-    private javax.swing.JButton jButton80;
-    private javax.swing.JButton jButton81;
-    private javax.swing.JButton jButton82;
-    private javax.swing.JButton jButton84;
-    private javax.swing.JButton jButton85;
-    private javax.swing.JButton jButton86;
-    private javax.swing.JButton jButton88;
-    private javax.swing.JButton jButton89;
-    private javax.swing.JButton jButton90;
-    private javax.swing.JButton jButton91;
-    private javax.swing.JButton jButton92;
-    private javax.swing.JLabel jLabel2;
+    private javax.swing.JButton A01;
+    private javax.swing.JButton A02;
+    private javax.swing.JButton A03;
+    private javax.swing.JButton A04;
+    private javax.swing.JButton A05;
+    private javax.swing.JButton A06;
+    private javax.swing.JButton B01;
+    private javax.swing.JButton B02;
+    private javax.swing.JButton B03;
+    private javax.swing.JButton B04;
+    private javax.swing.JButton B05;
+    private javax.swing.JButton B06;
+    private javax.swing.JButton C01;
+    private javax.swing.JButton C02;
+    private javax.swing.JButton C03;
+    private javax.swing.JButton C04;
+    private javax.swing.JButton C05;
+    private javax.swing.JButton C06;
+    private javax.swing.JButton D01;
+    private javax.swing.JButton D02;
+    private javax.swing.JButton D03;
+    private javax.swing.JButton D04;
+    private javax.swing.JButton D05;
+    private javax.swing.JButton D06;
+    private javax.swing.JButton E01;
+    private javax.swing.JButton E02;
+    private javax.swing.JButton E03;
+    private javax.swing.JButton E04;
+    private javax.swing.JButton E05;
+    private javax.swing.JButton E06;
+    private javax.swing.JButton F01;
+    private javax.swing.JButton F02;
+    private javax.swing.JButton F03;
+    private javax.swing.JButton F04;
+    private javax.swing.JButton F05;
+    private javax.swing.JButton F06;
+    private javax.swing.JButton G01;
+    private javax.swing.JButton G02;
+    private javax.swing.JButton G03;
+    private javax.swing.JButton G04;
+    private javax.swing.JButton G05;
+    private javax.swing.JButton G06;
+    private javax.swing.JButton H01;
+    private javax.swing.JButton H02;
+    private javax.swing.JButton H03;
+    private javax.swing.JButton btn_check;
+    private javax.swing.JButton btn_open;
+    private javax.swing.JButton btn_return;
+    private javax.swing.JButton btn_screen;
+    private javax.swing.JLabel delNum;
+    private javax.swing.JLayeredPane jLayeredPane1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
+    private javax.swing.JPanel jPanel4;
+    private javax.swing.JLabel lab_choose;
+    private javax.swing.JLabel lab_text;
+    private javax.swing.JLabel statusImg;
     // End of variables declaration//GEN-END:variables
 }
